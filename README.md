@@ -1,6 +1,5 @@
 # Security-Audit-Report-Generator
 
-# Security Audit Report Generator
 
 This script generates an HTML report based on the results of an npm audit. It provides a summary of vulnerabilities and allows you to search for vulnerabilities by package name or severity.
 
@@ -13,13 +12,21 @@ Before using this script, make sure you have the following installed:
 ## Usage
 
 1. Clone or download this repository to your local machine.
+2. Keep this file next to your package.json
 
-2. Open a terminal and navigate to the directory containing the script.
+3. Open a terminal and navigate to the directory containing the script.
 
-3. Run the script using the following command:
+4. Run the script using the following command:
 
    ```bash
-   ./generate_report.sh
+   ./npmAudit.sh
+
+   For MAC
+   Give the permission to file
+   chmod +x npmAudit.sh
+
+   To Run file
+   ./npmAudit.sh
 
 
 * 		The script will execute npm audit --json to generate a JSON report of vulnerabilities in your project and then create an HTML report.
