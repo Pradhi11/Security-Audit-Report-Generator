@@ -12,7 +12,7 @@ Before using this script, make sure you have the following installed:
 ## Usage
 
 1. Clone or download this repository to your local machine.
-2. Keep this file next to your package.json
+2. Keep npmAudit.sh file next to your package.json
 
 3. Open a terminal and navigate to the directory containing the script.
 
